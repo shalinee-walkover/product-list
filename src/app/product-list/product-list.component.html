@@ -6,7 +6,10 @@
 		<a [title]="product.name + ' details'" [routerLink]="['/products', productId]">
 			{{ product.name }}
 		</a>
+    <!-- <button style="float:right;">Add NEW</button> -->
 	</h3>
+
+
 
 	<p *ngIf="product.description">
 		Description: {{ product.description }}
